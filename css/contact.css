@@ -1,0 +1,91 @@
+/******header开始*****/
+#header {
+	min-height: 200px;
+}
+#header .headerBg {
+	height: 100%;
+	overflow: hidden;		
+	background: url(../img/bg2.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+}
+/******header结束*****/
+/******contact开始*****/
+#contact {
+	font-family: 'Raleway', sans-serif;
+	height: 849px;
+	padding: 80px 0;	
+}
+#contact .contactForm {
+	float: left;
+}
+#contact .contactForm p {
+	margin-top: 14px;
+	margin-bottom: 29px;
+}
+#contact .contactForm label {
+	display: block;
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#contact .contactForm .inpute  {
+	display: block;
+	width: 500px;
+	height: 25px;
+	padding: 10px;
+	border: 1px solid #eee;
+	color: #9198A3;
+    background: #fff;
+}
+#contact .contactForm span {
+	display: inline-block;
+	margin-top: 5px;
+}
+#contact .contactForm textarea.inpute {
+	height: 150px;
+	font-family: 'Raleway', sans-serif;
+}
+#contact .contactForm #submit {	
+	padding: 13px 25px;
+	border: 0;
+    background: #02D7FD;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase; 
+    cursor: pointer;   
+}
+#contact .contactAddress {
+	float: right;
+	width: 350px;
+	height: 274px;
+	padding: 0 15px;	
+}
+#contact .contactAddress h3 {
+	color: #000;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 36px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+#contact .contactAddress .addressInfo {
+	color: #999;
+    line-height: 24px;
+    font-size: 100%;
+    margin-bottom: 24px;
+}
+#contact .email a {
+	color: #1B242F;
+}
+#contact .email a:hover {
+	color: red;
+	text-decoration: underline;
+}
+/******contact结束*****/

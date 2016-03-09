@@ -1,0 +1,132 @@
+/******header开始*****/
+#header {
+	min-height: 200px;
+}
+#header .headerBg {
+	height: 100%;
+	overflow: hidden;		
+	background: url(../img/bg2.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+}
+/******header结束*****/
+/******single开始*****/
+#single {
+	padding: 80px 0;
+	font-family: 'Raleway', sans-serif;
+}
+#single .singleInfo{
+	margin: 16px 0;
+	color: #555;
+    font-size: 14px;
+    line-height: 29px;
+}
+#single .commentList {
+	width: 1074px;
+	height: 150px;
+	padding: 32px;
+	border: 1px solid #E6E6E6;
+	margin: 48px 0;
+}
+#single .commentList h5 {
+	margin: 10px 0;
+	line-height: 19px;
+    font-size: 19px;
+    font-weight: 500;   
+    color: #999;
+}
+#single .commentList h5 a {
+	color: #555;
+}
+#single .commentList h5 a:hover {
+	text-decoration: underline;
+}
+#single .commentList img {
+	float: left;
+	width: 107px;
+	height: 107px;
+	margin-right: 20px;
+}
+#single .commentList p {
+	float: left;
+	color: #555;
+    font-size: 14px;
+    line-height: 29px;
+    margin: 16px 0;
+}
+#single .commentList p a {
+	color: #555;
+}
+#single .commentList p a:hover {
+	color: red;
+	text-decoration: underline;
+}
+#single .commentinfoList {
+	width: 1074px;
+	padding: 25px;
+	border: 1px solid #E6E6E6;
+	margin: 40px 0;
+}
+#single .commentinfoList img {
+	float: left;
+	width: 40px;
+	height: 40px;
+}
+#single .commentinfoList span {
+	line-height: 23px;
+}
+#single .commentArea h3,#single .commentinfoList h2 {
+	font-size: 32px;
+	font-weight: 500;
+    line-height: 1.1;
+    color: #555;
+    text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 16px;
+}
+#single .commentArea form {
+	height: 620px;	
+}
+#single .commentArea p {
+	padding: 8px 0;
+	position: relative;
+}
+#single .commentArea span {
+	color: #e4411b;
+    position: absolute;
+    left: 4px;
+    top: 40px;
+    font-size: 32px;
+}
+#single .commentArea label {
+	display: block;
+    color: #999;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 29px;
+	margin-bottom: 5px;
+}
+#single .commentArea .inpute {
+    display: block;
+    width: 815px;
+	padding: 15px 20px;
+    color: #999;
+    font-size: 13px;   
+    background: #fff;  
+    border: 0;  
+}
+#single .commentArea textarea.inpute {
+	height: 170px;
+}
+#single .commentArea #submit {
+	padding: 15px 20px;
+    color: #fff;
+    background: #02D7FD;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+/******single结束*****/
